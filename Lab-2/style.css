@@ -1,0 +1,208 @@
+body {
+    font-family: Lora;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* =======Navigation Bar ======= */
+.logo {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color: #7e57c2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #d1c4e9;
+}
+
+/*========Home Section========*/
+
+.home-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ede7f6;
+}
+
+.home-section h2 {
+    color: #5e35b1;
+}
+
+/* ========================Buttons======================== */
+.btn {
+    background-color: #7e57c2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5e35b1;
+}
+
+/* ========================About Section======================== */
+.about-section {
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about-section img {
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ========================Skills Table======================== */
+.skills-section {
+    background-color: #f3e5f5;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.skills-section table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.skills-section th,
+.skills-section td {
+    border: 1px solid #7e57c2;
+    padding: 12px;
+}
+
+.skills-section tr:nth-child(even) {
+    background-color: #ede7f6;
+}
+
+
+.skills-section th {
+    background-color: #7e57c2;
+    color: white;
+}
+
+
+/* ========================Projects Section======================== */
+.projects-section {
+    padding: 40px 40px;
+    background-color: #fff;
+}
+
+
+
+.project-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ========================Contact Section======================== */
+.contact-section {
+    background-color: #f3e5f5;
+    padding: 80px 40px;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #7e57c2;
+}
+
+form button {
+    align-self: flex-start;
+}
+
+/* ========================Footer======================== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7e57c2;
+    color: white;
+}
+
+/* ========================Back to Top Button======================== */
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    background-color: #7e57c2;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.top-btn:hover {
+    background-color: #5e35b1;
+}
+
+/* ========================Responsive======================== */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills-section table,
+    .project-box,
+    form {
+        width: 90%;
+    }
+}
