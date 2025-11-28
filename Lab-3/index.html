@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Page</title>
+    <link rel="stylesheet" href="style3.css">
+
+    <!-----------------------Google Font----------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--======================Navigation Bar============================-->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Payal</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ===== Home Section ===== -->
+        <section id="home" class="home-section">
+
+            <div class="home-left">
+                <h2>Hi, I am</h2>
+                <h2 class="big-title">FULL STACK DEVELOPER</h2>
+
+                <p>
+                    Building modern web applications with clean code, responsive layouts,
+                    and strong fundamentals.
+                </p>
+
+                <button class="btn">View My Work</button>
+            </div>
+
+            <div class="home-right">
+                <img src="profile.jpg" alt="profile picture">
+            </div>
+
+        </section>
+
+        <!-- ===========About Section============================= -->
+        <section id="about" class="about-section">
+            <article>
+                <h2>About Me</h2>
+
+                <div class="about-content">
+                    <p>
+                        I am a passionate web developer who loves turning ideas into interactive and
+                        user-friendly websites. I enjoy learning new technologies and continuously
+                        improving my skills.
+                    </p>
+                </div>
+
+                <hr>
+            </article>
+        </section>
+
+        <!-- ===== Skills Section ===== -->
+        <section id="skills" class="skills-section">
+            <article>
+                <h2>Technical Skills</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">HTML — Beginner</div>
+                    <div class="skill-card">CSS — Learning</div>
+                    <div class="skill-card">JavaScript — Learner</div>
+                </div>
+
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- ===== Projects Section ===== -->
+        <section id="projects" class="projects-section">
+            <article>
+                <h2>My Projects</h2>
+
+                <div class="projects-grid">
+
+                    <div class="project-box">
+                        <h3>My Portfolio Page</h3>
+                        <p>A Personal Portfolio Website to showcase your bio, skills and contact
+                        details.</p>
+                    </div>
+
+                    <div class="project-box">
+                        <h3>Registration Form</h3>
+                        <p>A form webpage with fields like name, email, mobile number, password and
+                        message for practicing form handling.</p>
+                    </div>
+
+                    <div class="project-box">
+                        <h3>Grade Table Webpage</h3>
+                        <p>A table webpage with rows and coloumns using table tag and its elements.</p>
+                    </div>
+
+                    <div class="project-box">
+                        <h3>My Travel Blog</h3>
+                        <p> A simple blog layout that looks like travel blog built only with HTML.</p>
+                    </div>
+
+                </div>
+
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- ===== Contact Section ===== -->
+        <section id="contact" class="contact-section">
+            <article>
+                <h2>Contact Me</h2>
+
+                <form>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+
+                    <label for="message">Message :</label>
+                    <textarea id="message" rows="4" placeholder="Enter your message"></textarea>
+
+                    <button class="btn" type="submit">Send</button>
+                </form>
+
+            </article>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 My Portfolio Page. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="top-btn">↑</a>
+
+</body>
+
+</html>
